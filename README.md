@@ -101,10 +101,11 @@ if col == 'presupuesto_mllns':
 
 plt.suptitle('Perspectiva presupuestal de seguridad ciudadana en Perú (2025-2026)', 
              fontsize=24, y=0.96, fontweight='bold')
-```
+
 
 # Guardar resultado
 output_path = os.path.join(os.path.dirname(ruta_excel), "analisis_seguridad_final.png")
 plt.savefig(output_path, dpi=300, bbox_inches='tight')
 print(f"Proceso terminado. Imagen guardada en: {output_path}")
 plt.show()
+```
